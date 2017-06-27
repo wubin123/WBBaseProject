@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4408D5781F00F190001C1FED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408D5771F00F190001C1FED /* main.m */; };
-		4408D57B1F00F190001C1FED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408D57A1F00F190001C1FED /* AppDelegate.m */; };
-		4408D57E1F00F190001C1FED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408D57D1F00F190001C1FED /* ViewController.m */; };
-		4408D5811F00F190001C1FED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4408D57F1F00F190001C1FED /* Main.storyboard */; };
-		4408D5831F00F190001C1FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4408D5821F00F190001C1FED /* Assets.xcassets */; };
-		4408D5861F00F190001C1FED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4408D5841F00F190001C1FED /* LaunchScreen.storyboard */; };
 		4408D5911F00F190001C1FED /* WBBaseProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408D5901F00F190001C1FED /* WBBaseProjectTests.m */; };
 		4408D59C1F00F190001C1FED /* WBBaseProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4408D59B1F00F190001C1FED /* WBBaseProjectUITests.m */; };
+		445B3C431F01E83500D678AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C3B1F01E83500D678AA /* AppDelegate.m */; };
+		445B3C441F01E83500D678AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C3C1F01E83500D678AA /* Assets.xcassets */; };
+		445B3C451F01E83500D678AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C3D1F01E83500D678AA /* LaunchScreen.storyboard */; };
+		445B3C461F01E83500D678AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C3F1F01E83500D678AA /* Main.storyboard */; };
+		445B3C471F01E83500D678AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C411F01E83500D678AA /* Info.plist */; };
+		445B3C481F01E83500D678AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C421F01E83500D678AA /* main.m */; };
+		445B3C591F01E9BE00D678AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C581F01E9BE00D678AA /* ViewController.m */; };
 		83E80F6F543ADADD19ECA133 /* libPods-WBBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D590C69F4E5ED3B1F7F9DC3 /* libPods-WBBaseProject.a */; };
 		D69EFC3B310E14EA1864EDF2 /* libPods-WBBaseProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C66C52F59E6D0AEA3D06567 /* libPods-WBBaseProjectUITests.a */; };
 		F985351E886F0CE17FDA1309 /* libPods-WBBaseProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01537FE0AC3DAD7AD21BAE47 /* libPods-WBBaseProjectTests.a */; };
@@ -42,21 +43,22 @@
 		289E1552C77CA53A1909A6F6 /* Pods-WBBaseProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProjectTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProjectTests/Pods-WBBaseProjectTests.release.xcconfig"; sourceTree = "<group>"; };
 		3D590C69F4E5ED3B1F7F9DC3 /* libPods-WBBaseProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WBBaseProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4408D5731F00F190001C1FED /* WBBaseProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WBBaseProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4408D5771F00F190001C1FED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4408D5791F00F190001C1FED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		4408D57A1F00F190001C1FED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4408D57C1F00F190001C1FED /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4408D57D1F00F190001C1FED /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4408D5801F00F190001C1FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		4408D5821F00F190001C1FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		4408D5851F00F190001C1FED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		4408D5871F00F190001C1FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4408D58C1F00F190001C1FED /* WBBaseProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBBaseProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4408D5901F00F190001C1FED /* WBBaseProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBaseProjectTests.m; sourceTree = "<group>"; };
 		4408D5921F00F190001C1FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4408D5971F00F190001C1FED /* WBBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4408D59B1F00F190001C1FED /* WBBaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBaseProjectUITests.m; sourceTree = "<group>"; };
 		4408D59D1F00F190001C1FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445B3C3A1F01E83500D678AA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		445B3C3B1F01E83500D678AA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		445B3C3C1F01E83500D678AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		445B3C3E1F01E83500D678AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		445B3C401F01E83500D678AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		445B3C411F01E83500D678AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		445B3C421F01E83500D678AA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		445B3C571F01E9BE00D678AA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		445B3C581F01E9BE00D678AA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		445B3C5A1F01F1FA00D678AA /* WBBaseProject.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseProject.pch; sourceTree = "<group>"; };
 		456BE3731DC6634E3B0B6052 /* Pods-WBBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProject/Pods-WBBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		599D123F73C9DAA6CF038FB1 /* Pods-WBBaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProjectUITests/Pods-WBBaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		765A8C02263CEE9727E7F032 /* Pods-WBBaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProjectTests/Pods-WBBaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,25 +120,13 @@
 		4408D5751F00F190001C1FED /* WBBaseProject */ = {
 			isa = PBXGroup;
 			children = (
-				4408D5791F00F190001C1FED /* AppDelegate.h */,
-				4408D57A1F00F190001C1FED /* AppDelegate.m */,
-				4408D57C1F00F190001C1FED /* ViewController.h */,
-				4408D57D1F00F190001C1FED /* ViewController.m */,
-				4408D57F1F00F190001C1FED /* Main.storyboard */,
-				4408D5821F00F190001C1FED /* Assets.xcassets */,
-				4408D5841F00F190001C1FED /* LaunchScreen.storyboard */,
-				4408D5871F00F190001C1FED /* Info.plist */,
-				4408D5761F00F190001C1FED /* Supporting Files */,
+				445B3C501F01E88500D678AA /* Main(主要) */,
+				445B3C491F01E88500D678AA /* Expand(扩展) */,
+				445B3C551F01E88500D678AA /* SDKFile(集成) */,
+				445B3C391F01E83500D678AA /* Supporting Files */,
+				445B3C511F01E88500D678AA /* Resource(资源) */,
 			);
 			path = WBBaseProject;
-			sourceTree = "<group>";
-		};
-		4408D5761F00F190001C1FED /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4408D5771F00F190001C1FED /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		4408D58F1F00F190001C1FED /* WBBaseProjectTests */ = {
@@ -155,6 +145,99 @@
 				4408D59D1F00F190001C1FED /* Info.plist */,
 			);
 			path = WBBaseProjectUITests;
+			sourceTree = "<group>";
+		};
+		445B3C391F01E83500D678AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C3A1F01E83500D678AA /* AppDelegate.h */,
+				445B3C3B1F01E83500D678AA /* AppDelegate.m */,
+				445B3C3C1F01E83500D678AA /* Assets.xcassets */,
+				445B3C3D1F01E83500D678AA /* LaunchScreen.storyboard */,
+				445B3C3F1F01E83500D678AA /* Main.storyboard */,
+				445B3C411F01E83500D678AA /* Info.plist */,
+				445B3C421F01E83500D678AA /* main.m */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		445B3C491F01E88500D678AA /* Expand(扩展) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C561F01E91600D678AA /* Contant(常量) */,
+				445B3C4A1F01E88500D678AA /* Category(分类) */,
+				445B3C4C1F01E88500D678AA /* Macros(宏) */,
+				445B3C4D1F01E88500D678AA /* Networking(网络) */,
+				445B3C4E1F01E88500D678AA /* Tool(工具) */,
+				445B3C4F1F01E88500D678AA /* Vendor(第三方) */,
+			);
+			path = "Expand(扩展)";
+			sourceTree = "<group>";
+		};
+		445B3C4A1F01E88500D678AA /* Category(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Category(分类)";
+			sourceTree = "<group>";
+		};
+		445B3C4C1F01E88500D678AA /* Macros(宏) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C5A1F01F1FA00D678AA /* WBBaseProject.pch */,
+			);
+			path = "Macros(宏)";
+			sourceTree = "<group>";
+		};
+		445B3C4D1F01E88500D678AA /* Networking(网络) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Networking(网络)";
+			sourceTree = "<group>";
+		};
+		445B3C4E1F01E88500D678AA /* Tool(工具) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Tool(工具)";
+			sourceTree = "<group>";
+		};
+		445B3C4F1F01E88500D678AA /* Vendor(第三方) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Vendor(第三方)";
+			sourceTree = "<group>";
+		};
+		445B3C501F01E88500D678AA /* Main(主要) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C571F01E9BE00D678AA /* ViewController.h */,
+				445B3C581F01E9BE00D678AA /* ViewController.m */,
+			);
+			path = "Main(主要)";
+			sourceTree = "<group>";
+		};
+		445B3C511F01E88500D678AA /* Resource(资源) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Resource(资源)";
+			sourceTree = "<group>";
+		};
+		445B3C551F01E88500D678AA /* SDKFile(集成) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "SDKFile(集成)";
+			sourceTree = "<group>";
+		};
+		445B3C561F01E91600D678AA /* Contant(常量) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Contant(常量)";
 			sourceTree = "<group>";
 		};
 		A92B4550244A78D33C5CDFAA /* Frameworks */ = {
@@ -298,9 +381,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4408D5861F00F190001C1FED /* LaunchScreen.storyboard in Resources */,
-				4408D5831F00F190001C1FED /* Assets.xcassets in Resources */,
-				4408D5811F00F190001C1FED /* Main.storyboard in Resources */,
+				445B3C471F01E83500D678AA /* Info.plist in Resources */,
+				445B3C461F01E83500D678AA /* Main.storyboard in Resources */,
+				445B3C441F01E83500D678AA /* Assets.xcassets in Resources */,
+				445B3C451F01E83500D678AA /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -463,9 +547,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4408D57E1F00F190001C1FED /* ViewController.m in Sources */,
-				4408D57B1F00F190001C1FED /* AppDelegate.m in Sources */,
-				4408D5781F00F190001C1FED /* main.m in Sources */,
+				445B3C591F01E9BE00D678AA /* ViewController.m in Sources */,
+				445B3C431F01E83500D678AA /* AppDelegate.m in Sources */,
+				445B3C481F01E83500D678AA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -501,20 +585,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4408D57F1F00F190001C1FED /* Main.storyboard */ = {
+		445B3C3D1F01E83500D678AA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				4408D5801F00F190001C1FED /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4408D5841F00F190001C1FED /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4408D5851F00F190001C1FED /* Base */,
+				445B3C3E1F01E83500D678AA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		445B3C3F1F01E83500D678AA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				445B3C401F01E83500D678AA /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -618,7 +702,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4HNN93X4DL;
-				INFOPLIST_FILE = WBBaseProject/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WBBaseProject/Expand(扩展)/Macros(宏)/WBBaseProject.pch";
+				INFOPLIST_FILE = "WBBaseProject/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wubin.WBBaseProject;
@@ -632,7 +717,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4HNN93X4DL;
-				INFOPLIST_FILE = WBBaseProject/Info.plist;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/WBBaseProject/Expand(扩展)/Macros(宏)/WBBaseProject.pch";
+				INFOPLIST_FILE = "WBBaseProject/Supporting Files/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wubin.WBBaseProject;
@@ -646,7 +732,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9N37UN32ZR;
-				INFOPLIST_FILE = WBBaseProjectTests/Info.plist;
+				INFOPLIST_FILE = "WBBaseProjectTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wubin.WBBaseProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -660,7 +746,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9N37UN32ZR;
-				INFOPLIST_FILE = WBBaseProjectTests/Info.plist;
+				INFOPLIST_FILE = "WBBaseProjectTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wubin.WBBaseProjectTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -673,7 +759,7 @@
 			baseConfigurationReference = EEC62C70FB21457F5DA16C03 /* Pods-WBBaseProjectUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9N37UN32ZR;
-				INFOPLIST_FILE = WBBaseProjectUITests/Info.plist;
+				INFOPLIST_FILE = "WBBaseProjectUITests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wubin.WBBaseProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -686,7 +772,7 @@
 			baseConfigurationReference = 599D123F73C9DAA6CF038FB1 /* Pods-WBBaseProjectUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9N37UN32ZR;
-				INFOPLIST_FILE = WBBaseProjectUITests/Info.plist;
+				INFOPLIST_FILE = "WBBaseProjectUITests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wubin.WBBaseProjectUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
