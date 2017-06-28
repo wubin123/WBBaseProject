@@ -23,6 +23,7 @@ PODS:
   - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - NullSafe (1.2.2)
+  - RDVTabBarController (1.1.9)
   - SDWebImage (4.0.0):
     - SDWebImage/Core (= 4.0.0)
   - SDWebImage/Core (4.0.0)
@@ -36,6 +37,7 @@ DEPENDENCIES:
   - MJExtension
   - MJRefresh
   - NullSafe
+  - RDVTabBarController
   - SDWebImage
 
 SPEC CHECKSUMS:
@@ -47,8 +49,9 @@ SPEC CHECKSUMS:
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   NullSafe: cbf1f77a24558e49bc76e2673f31250d3087c792
+  RDVTabBarController: 67794f7a7a37f8e32f046f85ac67d06ab92d624a
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
-PODFILE CHECKSUM: 92ebb6eb5052534b7a0069ecfe17a60c9f95d30f
+PODFILE CHECKSUM: 945fe876d76177154677fac9bc18bca35be0c9f0
 
 COCOAPODS: 1.2.1

@@ -13,9 +13,15 @@
 		445B3C441F01E83500D678AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C3C1F01E83500D678AA /* Assets.xcassets */; };
 		445B3C451F01E83500D678AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C3D1F01E83500D678AA /* LaunchScreen.storyboard */; };
 		445B3C461F01E83500D678AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C3F1F01E83500D678AA /* Main.storyboard */; };
-		445B3C471F01E83500D678AA /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 445B3C411F01E83500D678AA /* Info.plist */; };
 		445B3C481F01E83500D678AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C421F01E83500D678AA /* main.m */; };
-		445B3C591F01E9BE00D678AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C581F01E9BE00D678AA /* ViewController.m */; };
+		445B3C671F0221AB00D678AA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C661F0221AB00D678AA /* BaseViewController.m */; };
+		445B3C6D1F02220200D678AA /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C6C1F02220200D678AA /* BaseNavigationController.m */; };
+		445B3C701F02228D00D678AA /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C6F1F02228D00D678AA /* BaseModel.m */; };
+		445B3C771F02247300D678AA /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C761F02247300D678AA /* HomeViewController.m */; };
+		445B3C7A1F02247F00D678AA /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C791F02247F00D678AA /* MessageViewController.m */; };
+		445B3C7D1F02249000D678AA /* DiscoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C7C1F02249000D678AA /* DiscoverViewController.m */; };
+		445B3C801F02249700D678AA /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C7F1F02249700D678AA /* MyViewController.m */; };
+		445B3C831F02256600D678AA /* AppDelegate+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 445B3C821F02256600D678AA /* AppDelegate+Category.m */; };
 		83E80F6F543ADADD19ECA133 /* libPods-WBBaseProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D590C69F4E5ED3B1F7F9DC3 /* libPods-WBBaseProject.a */; };
 		D69EFC3B310E14EA1864EDF2 /* libPods-WBBaseProjectUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C66C52F59E6D0AEA3D06567 /* libPods-WBBaseProjectUITests.a */; };
 		F985351E886F0CE17FDA1309 /* libPods-WBBaseProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01537FE0AC3DAD7AD21BAE47 /* libPods-WBBaseProjectTests.a */; };
@@ -49,6 +55,8 @@
 		4408D5971F00F190001C1FED /* WBBaseProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBBaseProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4408D59B1F00F190001C1FED /* WBBaseProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBBaseProjectUITests.m; sourceTree = "<group>"; };
 		4408D59D1F00F190001C1FED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4410250B1F0259E000EBF910 /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		4410250C1F02610600EBF910 /* FrameDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameDefine.h; sourceTree = "<group>"; };
 		445B3C3A1F01E83500D678AA /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		445B3C3B1F01E83500D678AA /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		445B3C3C1F01E83500D678AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,9 +64,23 @@
 		445B3C401F01E83500D678AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		445B3C411F01E83500D678AA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		445B3C421F01E83500D678AA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		445B3C571F01E9BE00D678AA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		445B3C581F01E9BE00D678AA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		445B3C5A1F01F1FA00D678AA /* WBBaseProject.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBBaseProject.pch; sourceTree = "<group>"; };
+		445B3C651F0221AB00D678AA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		445B3C661F0221AB00D678AA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		445B3C6B1F02220200D678AA /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		445B3C6C1F02220200D678AA /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		445B3C6E1F02228D00D678AA /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		445B3C6F1F02228D00D678AA /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		445B3C751F02247300D678AA /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		445B3C761F02247300D678AA /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		445B3C781F02247F00D678AA /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		445B3C791F02247F00D678AA /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		445B3C7B1F02249000D678AA /* DiscoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverViewController.h; sourceTree = "<group>"; };
+		445B3C7C1F02249000D678AA /* DiscoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverViewController.m; sourceTree = "<group>"; };
+		445B3C7E1F02249700D678AA /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		445B3C7F1F02249700D678AA /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		445B3C811F02256600D678AA /* AppDelegate+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Category.h"; sourceTree = "<group>"; };
+		445B3C821F02256600D678AA /* AppDelegate+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Category.m"; sourceTree = "<group>"; };
 		456BE3731DC6634E3B0B6052 /* Pods-WBBaseProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProject/Pods-WBBaseProject.debug.xcconfig"; sourceTree = "<group>"; };
 		599D123F73C9DAA6CF038FB1 /* Pods-WBBaseProjectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProjectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProjectUITests/Pods-WBBaseProjectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		765A8C02263CEE9727E7F032 /* Pods-WBBaseProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBBaseProjectTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WBBaseProjectTests/Pods-WBBaseProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -164,6 +186,7 @@
 		445B3C491F01E88500D678AA /* Expand(扩展) */ = {
 			isa = PBXGroup;
 			children = (
+				445B3C5C1F02204900D678AA /* BaseClass(基类) */,
 				445B3C561F01E91600D678AA /* Contant(常量) */,
 				445B3C4A1F01E88500D678AA /* Category(分类) */,
 				445B3C4C1F01E88500D678AA /* Macros(宏) */,
@@ -177,6 +200,8 @@
 		445B3C4A1F01E88500D678AA /* Category(分类) */ = {
 			isa = PBXGroup;
 			children = (
+				445B3C811F02256600D678AA /* AppDelegate+Category.h */,
+				445B3C821F02256600D678AA /* AppDelegate+Category.m */,
 			);
 			path = "Category(分类)";
 			sourceTree = "<group>";
@@ -185,6 +210,8 @@
 			isa = PBXGroup;
 			children = (
 				445B3C5A1F01F1FA00D678AA /* WBBaseProject.pch */,
+				4410250B1F0259E000EBF910 /* Define.h */,
+				4410250C1F02610600EBF910 /* FrameDefine.h */,
 			);
 			path = "Macros(宏)";
 			sourceTree = "<group>";
@@ -213,8 +240,10 @@
 		445B3C501F01E88500D678AA /* Main(主要) */ = {
 			isa = PBXGroup;
 			children = (
-				445B3C571F01E9BE00D678AA /* ViewController.h */,
-				445B3C581F01E9BE00D678AA /* ViewController.m */,
+				445B3C711F0223CF00D678AA /* My(我的) */,
+				445B3C721F0223CF00D678AA /* Discover(发现) */,
+				445B3C731F0223CF00D678AA /* Message(消息) */,
+				445B3C741F0223CF00D678AA /* Home(首页) */,
 			);
 			path = "Main(主要)";
 			sourceTree = "<group>";
@@ -238,6 +267,95 @@
 			children = (
 			);
 			path = "Contant(常量)";
+			sourceTree = "<group>";
+		};
+		445B3C5C1F02204900D678AA /* BaseClass(基类) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C5D1F02210F00D678AA /* BaseView */,
+				445B3C5E1F02210F00D678AA /* BaseOther */,
+				445B3C5F1F02210F00D678AA /* BaseModel */,
+				445B3C601F02210F00D678AA /* BaseCell */,
+				445B3C611F02210F00D678AA /* BaseVC */,
+			);
+			path = "BaseClass(基类)";
+			sourceTree = "<group>";
+		};
+		445B3C5D1F02210F00D678AA /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		445B3C5E1F02210F00D678AA /* BaseOther */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseOther;
+			sourceTree = "<group>";
+		};
+		445B3C5F1F02210F00D678AA /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C6E1F02228D00D678AA /* BaseModel.h */,
+				445B3C6F1F02228D00D678AA /* BaseModel.m */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		445B3C601F02210F00D678AA /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		445B3C611F02210F00D678AA /* BaseVC */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C651F0221AB00D678AA /* BaseViewController.h */,
+				445B3C661F0221AB00D678AA /* BaseViewController.m */,
+				445B3C6B1F02220200D678AA /* BaseNavigationController.h */,
+				445B3C6C1F02220200D678AA /* BaseNavigationController.m */,
+			);
+			path = BaseVC;
+			sourceTree = "<group>";
+		};
+		445B3C711F0223CF00D678AA /* My(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C7E1F02249700D678AA /* MyViewController.h */,
+				445B3C7F1F02249700D678AA /* MyViewController.m */,
+			);
+			path = "My(我的)";
+			sourceTree = "<group>";
+		};
+		445B3C721F0223CF00D678AA /* Discover(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C7B1F02249000D678AA /* DiscoverViewController.h */,
+				445B3C7C1F02249000D678AA /* DiscoverViewController.m */,
+			);
+			path = "Discover(发现)";
+			sourceTree = "<group>";
+		};
+		445B3C731F0223CF00D678AA /* Message(消息) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C781F02247F00D678AA /* MessageViewController.h */,
+				445B3C791F02247F00D678AA /* MessageViewController.m */,
+			);
+			path = "Message(消息)";
+			sourceTree = "<group>";
+		};
+		445B3C741F0223CF00D678AA /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				445B3C751F02247300D678AA /* HomeViewController.h */,
+				445B3C761F02247300D678AA /* HomeViewController.m */,
+			);
+			path = "Home(首页)";
 			sourceTree = "<group>";
 		};
 		A92B4550244A78D33C5CDFAA /* Frameworks */ = {
@@ -381,7 +499,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445B3C471F01E83500D678AA /* Info.plist in Resources */,
 				445B3C461F01E83500D678AA /* Main.storyboard in Resources */,
 				445B3C441F01E83500D678AA /* Assets.xcassets in Resources */,
 				445B3C451F01E83500D678AA /* LaunchScreen.storyboard in Resources */,
@@ -547,9 +664,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				445B3C591F01E9BE00D678AA /* ViewController.m in Sources */,
+				445B3C701F02228D00D678AA /* BaseModel.m in Sources */,
+				445B3C7D1F02249000D678AA /* DiscoverViewController.m in Sources */,
+				445B3C671F0221AB00D678AA /* BaseViewController.m in Sources */,
+				445B3C801F02249700D678AA /* MyViewController.m in Sources */,
 				445B3C431F01E83500D678AA /* AppDelegate.m in Sources */,
 				445B3C481F01E83500D678AA /* main.m in Sources */,
+				445B3C831F02256600D678AA /* AppDelegate+Category.m in Sources */,
+				445B3C771F02247300D678AA /* HomeViewController.m in Sources */,
+				445B3C7A1F02247F00D678AA /* MessageViewController.m in Sources */,
+				445B3C6D1F02220200D678AA /* BaseNavigationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
